@@ -1,0 +1,425 @@
+
+:root {
+    --color-green: darkseagreen ;
+    --color-white: whitesmoke;
+    --color-salary: darkslategray;
+    --color-black: #46515A;
+}
+
+body {
+    height: auto;
+    background-color: darkslategray;
+    width: auto;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 1000;
+    padding: 1rem;
+    
+}
+
+/* LOGO */
+.nama {
+    position: relative;
+    color: darkseagreen;
+    font-weight: 600;
+    margin-left: 10%;
+    font-style: normal;
+    top: 10px;
+    cursor:default;
+    
+
+    
+}
+
+/* NAVBAR */
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 3.5rem;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    
+
+}
+
+
+.navbar a:hover{
+    color: darkcyan;
+    margin-bottom: 10px;
+    transition: .2s;
+
+}
+
+#menu {
+    display: block;
+    margin-top: -100px;
+}
+
+#close {
+    display: none;  
+    margin-top: -100px;
+
+
+}
+
+.dropdown-menu {    
+   display: none;
+   background-color: darkslategrey;
+   margin-left: -200px;
+}
+
+
+.dropdown-menu li {
+    padding: 0.5rem;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.dropdown-menu a:hover {
+        color: darkcyan;
+
+
+}
+
+/* Home Page */
+
+.home-page {
+    position: relative;
+    width: 45%;
+    padding-right: 20px;
+    background-color: darkslategrey;
+    top: 250px;
+    left: 10%;
+    padding-right: 20px;
+}
+
+.home-page h5, h3, p {
+    top: 250px;
+    left: 10%;
+    margin-right: 10%;
+    color: white;
+    cursor:default;
+}
+
+
+
+
+.img {
+    position: relative;
+    top: 0;
+    left: 65%;
+    width: 0px;
+    
+}
+
+.gambar {
+    position: absolute;
+    top: 80px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    
+}
+
+.background-gambar {
+    position: absolute; 
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: -120px;
+    margin-top: 200px;
+    background-color: darkseagreen;
+} 
+
+.background-gambar2 {
+   position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: darkseagreen;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 0;
+}
+
+/* About Me  */
+
+.about {
+    position: absolute;
+    top: 100px;
+    left: 10%;
+ /* margin-right: 10%; */
+    cursor:default;  
+    width: 40%;
+}
+
+.about p {
+    color: black;
+}
+
+.about h2 {
+    color: #46515A;
+}
+
+
+.container-about {
+    position: relative;
+    background-color: whitesmoke;
+    /* #46515A */
+    height: 500px;
+    width: auto;
+    top: 350px;
+
+}
+
+/* Be Friend */
+
+.befriend {
+    position: absolute;
+    top: 100px;
+    left: 60%;
+    width: 40%;
+
+}
+
+.befriend p {
+    color: black;
+}
+
+.befriend h2 {
+    color: #46515A;
+}
+
+.wall {
+    position: absolute;
+    width: 5px;
+    height: 300px;
+    background-color: #46515A;
+    left: 50%;
+    top: 80px;
+}
+
+.sosmed {
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: -80px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.ig:hover, .fb:hover, .tiktok:hover, .github:hover {
+    background: var(--color-salary);
+}
+
+.ig, .fb, .tiktok, .github {
+    margin-left: 50px;
+    background:var(--color-black);
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 25%;
+    
+}
+
+.fa-brands {
+    color:var(--color-white);
+}
+
+.ig .fa-brands:hover {
+    content: "\f16d";
+    background-image: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fb .fa-brands:hover {
+    content: "\f082";
+    color: #0165E1;
+}
+
+.github .fa-brands:hover {
+    color: black
+}
+
+.tiktok .fa-brands:hover {
+    text-shadow: 3px 2px #ff0050,-2px -3px #00f2ea;
+    color: var(--color-black);
+   
+}
+
+.card-body p {
+    text-align: center;
+   
+}
+
+
+/* Portfolio */
+
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+   width: 100%;
+   max-width: 1280px;
+   margin: 0 auto;
+   margin-bottom: 6rem;
+   padding: 50px;
+    margin: 20px;
+    margin-left: 10%;
+}
+
+
+.container-portfolio h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: darkseagreen;
+}
+
+.container-portfolio p {
+    text-align: justify;
+    font-family: inter;
+}
+
+.container-portfolio {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 350px;
+    /* background-color: #0165E1; */
+}
+
+
+
+.card {
+    width: 350px;
+    height: 500px;
+    background-color: whitesmoke;
+    
+}
+
+.img-1  {
+    padding: 5px;
+    height: 200px;
+    width: 100%;
+}
+
+.img-2, .img-3 {
+    height: 200px;
+    width: 100%;
+    background-color: #46515A;
+    
+    
+    
+}
+
+.card .text {
+    color: transparent;
+    -webkit-text-stroke: .7px var(--color-green);
+    background-image: linear-gradient(var(--color-green), var(--color-green));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -25rem 0;
+    animation: Text 5s linear infinite;
+    animation-delay: 2s;
+}
+
+.portfolio:hover > :not(:hover) {
+    opacity: .4;;
+    transition: 1s;
+    
+}
+button {
+    position: absolute;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--color-black);
+    border: none;   
+    left: 25%;
+    top: 85%;
+}
+
+
+button .fa-brands {
+   color: var(--color-white);
+   font-size: 25px;
+}
+
+button:hover {
+    background: var(--color-green);
+}
+
+button .fa-brands:hover {
+    color: black;
+}
+
+
+/* Footer or Contact */
+
+.footer {
+    width: 100%;
+    margin-top: 350px;
+    background: var(--color-black);
+    height: auto;
+    position: relative;
+    bottom: 0;
+    top: 15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.info {
+    font-size: 20px;
+    margin-left: 45%;
+    
+}
+
+
+
+/* KEYFRAME TEXT  */
+@keyframes Text {
+    0%,10%, 100% {
+        background-position: -25rem 0;
+    }
+    65%,
+    85%{
+        background-position: 0 0;
+    }
+   
+}

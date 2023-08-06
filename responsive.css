@@ -1,0 +1,256 @@
+@media(max-width:992px) {
+
+    .navbar a {
+        display: none;
+    
+    }
+
+    #menu {
+        font-size: 2rem;
+        color: white;
+        display: block;
+        margin-left: 60%;
+        margin-top: 0;
+        color: black;
+    }
+
+    #close {
+        font-size: 2rem;
+        color: white;
+        display: none;
+        margin-left: 60%;
+        margin-top: 0;
+        color: black;
+    }
+.dropdown-menu {
+    position: fixed;
+    list-style: none;
+    top: 60px;
+    right: 2rem;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+}
+
+.dropdown-menu li a {
+    color: black;
+
+}
+
+
+.home-page {
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    background-color: darkslategrey;
+    top: 150px;
+    left: 10%;
+    padding-right: 20px;
+}
+.home-page h5, h3, p {
+    color: white;
+    cursor:default;
+}
+
+.img {
+    position: relative;
+    top: 200px;
+    left: 35%;
+}
+
+.gambar {
+    position: absolute;
+    top: 80px;
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    
+}
+
+.background-gambar {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: darkseagreen;
+    border-radius: 50%;
+    margin-left: -75px;
+    margin-top: 200px;
+}
+
+.background-gambar2 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: darkseagreen;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 0;
+}
+
+.container-about {
+    position: relative;
+    background-color: white;
+    height: 500px;
+    width: auto;
+    top: 700px;
+    }
+
+
+    
+
+
+
+    /* Portfolio */
+
+    .container-portfolio {
+        position: relative;
+        width: auto;
+        height: auto;
+        top: 650px;
+        
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+        background-color: whitesmoke;
+        
+    }
+    .img-1  {
+        padding: 5px;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Footer or Contact */
+    .footer {
+        margin-top: 600px;
+    }
+
+    .info {
+        font-size: 20px;
+       margin-left: 40%;
+    }
+    
+}
+
+
+
+@media(max-width: 576px) {
+
+    .nama {
+        margin-left: 0;
+    }
+    .dropdown-menu {
+        left: 2rem;
+        width: unset;
+        margin-left: 0;   
+    }
+
+    .home-page {
+        position: relative;
+        width: 100%;
+        padding-right: 20px;
+        background-color: darkslategrey;
+        top: 150px;
+        left: 10%;
+        padding-right: 20px;
+    }
+
+    .home-page h5, h3, p {
+        color: white;
+        cursor:default;
+    }
+
+    .img {
+        position: relative;
+        top: 230px;
+        left: 20%;
+        
+    }
+
+    .gambar {
+        position: absolute;
+        top: 80px;
+        height: 200px;
+        width: 200px;
+        left: 20px;
+        
+    }
+    
+    .background-gambar {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        /* background-image: url(./james.png); */
+        border-radius: 50%;
+        margin-left: -50px;
+        margin-top: 200px;
+    }
+    
+    .background-gambar2 {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        background-color: darkseagreen;
+        border-radius: 50%;
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+
+    .container-about {
+        position: relative;
+        background-color: whitesmoke;
+        height: 800px;
+        width: auto;
+        top: 600px;
+    
+    }
+    .about {
+        position: absolute;
+        top: 50px;
+        left: 10%;
+     /* margin-right: 10%; */
+        cursor:default;  
+        width: 80%;
+    }
+
+    .wall {
+        position: absolute;
+        width: 350px;
+        height: 5px;
+        background-color: #46515A;
+        left: 10%;
+        top: 50%;
+        
+    }
+
+
+    .befriend {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        width: 80%;
+    
+    }
+
+ 
+  /* Portfolio */
+ 
+  .card {
+    width: 80%;
+    height: auto;
+    background-color: whitesmoke;
+    
+}
+
+.info {
+    margin-left: 30%;
+}
+
+}
