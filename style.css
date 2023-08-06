@@ -287,12 +287,12 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
    width: 100%;
-   max-width: 1280px;
+   max-width: auto;
    margin: 0 auto;
    margin-bottom: 6rem;
    padding: 50px;
     margin: 20px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 
@@ -309,7 +309,7 @@ body {
 
 .container-portfolio {
     position: relative;
-    width: auto;
+    width:auto;
     height: auto;
     top: 350px;
     /* background-color: #0165E1; */
