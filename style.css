@@ -321,6 +321,7 @@ body {
     width: 350px;
     height: 500px;
     background-color: whitesmoke;
+    margin-left: -50px;
     
 }
 
@@ -385,7 +386,7 @@ button .fa-brands:hover {
 
 .footer {
     width: 100%;
-    margin-top: 350px;
+    margin-top: 380px;
     background: var(--color-black);
     height: auto;
     position: relative;
@@ -402,6 +403,7 @@ button .fa-brands:hover {
     flex-wrap: wrap;
     padding: 10px;
     font-size: 18px;
+    margin-left: 100px;
 }
 
 .info {

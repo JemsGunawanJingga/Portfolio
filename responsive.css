@@ -119,6 +119,7 @@
         width: 80%;
         /* height: 500px; */
         background-color: whitesmoke;
+        margin-left: 0px;
         
     }
     .img-1  {
@@ -129,13 +130,18 @@
 
     /* Footer or Contact */
     .footer {
-        margin-top: 600px;
+        margin-top: 650px;
     }
 
     .info {
         font-size: 20px;
        margin-left: 40%;
     }
+
+    .contact {
+        margin-left: 50px;
+    }
+    
     
 }
 
@@ -246,11 +252,17 @@
     width: 80%;
     /* height: 500px; */
     background-color: whitesmoke;
+    margin-left: 0px;
     
 }
 
 .info {
     margin-left: 30%;
 }
+
+.contact {
+    margin-left: 20px;
+}
+
 
 }
